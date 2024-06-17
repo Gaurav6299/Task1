@@ -1,0 +1,82 @@
+<!-- <h1>Hello</h1> -->
+<!-- <kendo-datepicker [(value)]="value" (valueChange)="selectDate()"  calendarType="classic" class="custom-datepicker"
+  [animateCalendarNavigation]="true" [popupSettings]="popupSettings">
+
+</kendo-datepicker> -->
+
+
+
+
+
+<!-- ngx date picker -->
+<!-- <div class="row">
+  <div class="pr-3 pb-3 pe-3 w-auto">
+    <bs-datepicker-inline [bsValue]="bsInlineValue"></bs-datepicker-inline>
+  </div>
+   -->
+<!-- </div> -->
+
+
+
+<!-- <input type="date" (change)="selectDate()"> -->
+
+
+
+<!-- Owl Carousel -->
+<!-- <div class="container">
+  <div class="row">
+    <div #carouselElement class="owl-carousel">
+      <div class="item">Slide 1</div>
+      <div class="item">Slide 2</div>
+      <div class="item">Slide 3</div>
+    </div>
+  </div>
+</div>
+
+<div class="animate__animated animate__bounce">Animated Element</div> -->
+
+
+<div class="container mt-2">
+  <div class="row">
+    <!-- First Box -->
+    <div class="col-md-2 first-box">
+      <div *ngFor="let ele of data" (click)="findClickDataBox1(ele,$event)">
+        <input type="checkbox" style=" margin-right: 4px;" id="btncheck{{ele}}">
+        <label style="font-weight: 700;
+          font-size: 19px;" for="btncheck{{ele}}">{{ele}}</label>
+      </div>
+    </div>
+
+    <div class="col-md-2 " style=" display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;">
+      <div class="greater" (click)="goToSecondBox()">
+        <span>></span>
+      </div>
+      <div class="greater" style="margin: 20px;" (click)="goToPrevBox()">
+        <span>
+          <</span>
+      </div>
+    </div>
+
+    <!-- Second Box -->
+    <div class="col-md-2 first-box">
+      <div>
+        <div *ngFor="let ele of nextDataList" (click)="findClickDataBox2(ele,$event)">
+          <input type="checkbox" style=" margin-right: 4px;" id="btnchecks{{ele}}">
+          <label style="font-weight: 700;
+          font-size: 19px;" for="btnchecks{{ele}}">{{ele}}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- <ngx-spinner size="large" type="ball-scale-multiple" bdColor="rgba(51,51,51,0.8)" color="#fff"> -->
+<!-- <p style="font-size: 20px; color: white">Loading..</p> -->
+<!-- </ngx-spinner> -->

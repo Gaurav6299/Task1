@@ -1,0 +1,71 @@
+// .crimson .k-calendar-header,
+//       .crimson .k-calendar-header .k-today {
+//         background: blue;
+//         color: white;
+//         // padding-top: 30px !important;
+//         height: 200px !important;
+//       }
+
+//       .k-datetimepicker {
+//         // height: 50px !important;
+//       }
+
+// .custom-datepicker .k-datepicker-header {
+//   height: 30px !important;
+// }
+
+// .custom-datepicker .k-calendar-container {
+//   height: 170px;
+// }
+
+
+
+// .custom-datepicker .k-datepicker-footer {
+//   height: auto !important;
+// }
+
+// .custom-datepicker .footer-container {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   height: 30px;
+//   padding: 5px;
+// }
+
+// .custom-datepicker .today-button {
+//   height: 100%;
+//   margin-right: 10px;
+// }
+
+
+
+.custom-datepicker .k-calendar-container {
+  // height: 250px !important;
+  // margin-top: 20px;
+  // padding-top: 0px;
+}
+
+
+.container {
+  .first-box {
+    border: 1px solid black;
+    padding: 76px;
+    border-radius: 15px;
+  }
+  .greater {
+    height: 43px;
+    width: 70px;
+    border: 1px solid #dfd8d8;
+    background: #f1efef;
+    cursor: pointer;
+    span{
+      font-size: 22px;
+      font-weight: 700;
+      position: relative;
+      left: 25px;
+    }
+  }
+}
+
+
+
